@@ -1,0 +1,478 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "f29780ce-1d9c-493d-93ae-ea444f7b43a4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "str:  helo I AM rahul\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HELO i am RAHUL\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=input(\"str: \")\n",
+    "print(x.swapcase())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "41fa6522-efff-4557-b75a-b8c33a1ff5fd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "5e294c88-3695-4bc7-9415-dec7a1ddeace",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "        *   \n",
+      "      *   *   \n",
+      "    *   *   *   \n",
+      "  *   *   *   *   \n",
+      "*   *   *   *   *   \n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1,6):\n",
+    "    for k in range(5-i):\n",
+    "        print(\" \",end=\" \")\n",
+    "    for j in range(i):\n",
+    "        print(\"*  \",end=\" \")\n",
+    "\n",
+    "    print()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "3479a1d8-7a09-40ee-a116-b3281495bab9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "c293dc2e-b805-43ad-ac98-f92397fa5bac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(1)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "4d8ee9e0-494e-4afb-9498-c9f457ca4fcd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24\n"
+     ]
+    }
+   ],
+   "source": [
+    "def msg(x):\n",
+    "    fact=1\n",
+    "    i=1\n",
+    "    \n",
+    "    while i<=x:\n",
+    "        fact=fact*i\n",
+    "        i=i+1 \n",
+    "    print(fact)\n",
+    "\n",
+    "\n",
+    "msg(4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "506fde23-bffd-4001-bba4-9e0d0823b704",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hello'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"hello\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cc710afd-3924-47d7-88d1-edf485890183",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "4ce93b34-e316-4f2f-8316-cf0383fd3741",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "\n",
+    "x=10\n",
+    "print(type(x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "811ef3ba-9a7a-4b75-b74e-179b0b4d47f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<function chr(i, /)>"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "chr"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "bb10a4a6-c470-470f-b8ad-0303ce86563e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(chr(x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "b9c59efb-23a2-45ba-9a05-e6d4764be502",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'B'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "chr(66)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "50ad1a7f-3d17-4e7c-b90c-2858a6a3008e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "63b9afb6-231e-4d50-a45a-526129db43d0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "4c4858d3-5c5f-451f-9f92-a0e215030def",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "3\n",
+      "5\n",
+      "7\n",
+      "9\n",
+      "11\n",
+      "13\n",
+      "15\n",
+      "17\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=0\n",
+    "for i in range(0,11):\n",
+    "    total=x+i\n",
+    "    print(total)\n",
+    "    x=i\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "e337fadb-0d40-4bfd-b86a-4f38ce597d41",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "str:  rahulverma\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'rv'"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x=input(\"str: \")\n",
+    "y=print(len(x))\n",
+    "\n",
+    "x[0:y:5]\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "08f54e4a-ba4f-4d42-9a02-09865b15a5b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "srt i am rahul\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I Am Rahul\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=input(\"srt\")\n",
+    "print(x.title())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "a5cd3bcf-35ad-4d4b-888e-c6791ec1c7dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "str:  esdfghjk\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'df'"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x=input(\"str: \")\n",
+    "x[2:-4:]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "84248da0-feb9-4134-8fe1-2312b71ba51e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "f3a93084-6cf7-4011-a9b7-c44a19982650",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(123,) <class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "def facebook( *data):\n",
+    "    print(data, type(data))\n",
+    "facebook(123)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "5740ab56-2590-4a12-bd53-eca9b03199ae",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4a548f2d-8ba2-4acf-be78-3e00d93253dc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
